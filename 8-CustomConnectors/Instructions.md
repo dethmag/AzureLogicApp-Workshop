@@ -134,8 +134,29 @@ namespace TestApp.Controllers
    '''
 9.  Edit App_Start/SwaggerConfig.cs and uncomment SwaggerUI section.
     ![Swagger](_img/SwaggerUI.png)
-10. Press Ctrl+F5 and play with SwaggerUI under https://localhost:<port>/swagger
+10. Press Ctrl+F5 and play with SwaggerUI under http://localhost:port/swagger
 
-## Exercise 1: Create an Azure API App ##
+## Exercise 2: Create custom connector for your API  ##
 
+1. Publish your API App to Azure
+   ![Publish](_img/Publish.png)
+2. Run your application and get swagger from following url https://yourAPIName.azurewebsites.net/swagger/docs/v1
+3. Save swagger in json file.
+4. Create Logic App Connector named ColorsAPI
+   ![Connector](_img/Connector.png)
+5. Edit General tab of connector with json file containing your swagger.
+   ![Connector2](_img/ConfigreConnector.png)
+6. In Security tab select "No authentication"
+7. In Definition tab fill in method Summary and Description and press Update connector button.
+   ![Connector3](_img/ConfigreConnector2.png)  
+
+## Exercise 3: Use your custom connector in Logic App  ##
+
+1. Using SwaggerUI at https://yourAPIName.azurewebsites.net/swagger define couple of test colors (e.g. Blue, Black, Red, Yellow)
+2. Create new logic app from HTTP Trigger template.
+3. In Ation call "Get all colors" from ColorsAPI.
+   ![Call](_img/GetAllColors.png)
+4. Foreach Result check if color name startrts with "B" if Yes - Delete Color.
+   ![CallFinal](_img/Final.png)
+5. Test results using SwaggerUI.
 ## [UP](./../README.md)
