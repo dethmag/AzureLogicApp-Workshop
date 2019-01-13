@@ -13,8 +13,8 @@ First step is to implement simple API that will be then used to create custom Lo
 5. Create storage account and add it to your API.
    ![Storage](_img/ConnectedService.png)
 6. Add ValuesEntity class in Model folder. 
-   ''' C#
-   using Microsoft.WindowsAzure.Storage.Table;
+``` C#
+using Microsoft.WindowsAzure.Storage.Table;
 
 namespace TestApp.Models
 {
@@ -33,11 +33,11 @@ namespace TestApp.Models
 
     }
 }
-   '''
+```
 7. Remove ValuesController and create ColorsController
 8. Implement controller
-   ''' C#
-   using System.Collections.Generic;
+``` C#
+using System.Collections.Generic;
 using System.Net;
 using System.Web.Http;
 using Microsoft.WindowsAzure.Storage;
@@ -130,11 +130,10 @@ namespace TestApp.Controllers
         }
     }
 }
-
-   '''
-9.  Edit App_Start/SwaggerConfig.cs and uncomment SwaggerUI section.
+```
+1.  Edit App_Start/SwaggerConfig.cs and uncomment SwaggerUI section.
     ![Swagger](_img/SwaggerUI.png)
-10. Press Ctrl+F5 and play with SwaggerUI under http://localhost:port/swagger
+2.  Press Ctrl+F5 and play with SwaggerUI under http://localhost:port/swagger
 
 ## Exercise 2: Create custom connector for your API  ##
 
