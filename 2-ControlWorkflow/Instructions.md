@@ -7,7 +7,9 @@
 2. As a first action add **Condition** action  from **Control** connector.
 3. In condition set that MimeType of file must match "text/xml".
 4. In "If true" brach set two actions from previous excercise. Leave "If false".
+   
    ![If](_img/if.png)
+
 5. Test workflow by uploading different files of XML and non-XML type.
 
 ## Exercise 2 : Using Switch statements
@@ -16,7 +18,9 @@
 2. As a first action add **Switch** action from **Control** connector.
 3. Crate "xml", "txt" and "other" containers in Storage Account.
 4. Switch over MimeType to save file copy to properiner.
+   
    ![Switch](_img/switch.png)
+
 5. Test workflow by uploading different files of XML, TXT and other types.
 
 ## ## Exercise 3 : Using Loops
@@ -34,7 +38,9 @@
    }
    ```
 6. Then insert JSON into Storage table called "Files" using "Insert Entity" action.
+   
    ![Loop](_img/loop.png)
+   
 7. Run your workflow (you will get HTTP link after save).
 8. Navigate to "Storage Explorer" in your Storage Account to verify added rows.
 
