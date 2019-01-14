@@ -155,7 +155,7 @@ namespace TestApp.Controllers
 2. Create new logic app from HTTP Trigger template.
 3. In Ation call "Get all colors" from ColorsAPI.
    ![Call](_img/GetAllColors.png)
-4. Foreach Result check if color name startrts with "B" if Yes - Delete Color.
+4. Foreach Result check if color name starts with "B" if Yes - Delete Color.
    ![CallFinal](_img/Final.png)
 5. Test results using SwaggerUI.
 ## [UP](./../README.md)
