@@ -1,4 +1,4 @@
-# Microsoft Azure LogicApps Workshop
+# Microsoft Azure LogicApps Workshop - Logging and monitoring
 
 ## Exercise 1 : Creating Log Analytics solution for Logic Apps
 
