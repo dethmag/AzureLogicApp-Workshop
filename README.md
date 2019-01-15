@@ -7,7 +7,7 @@ List of contents:
 [2. Control workflow execution](./2-ControlWorkflow/Instructions.md)  
 [3. Error and exception handling](./3-ErrorHandling/Instructions.md)  
 [4. Using workflow variables](./4-UsingVariables/Instructions.md)  
-[5. Securing your workflow](./5-Security/Instructions.md)  
+[5. Data processing](./5-DataProcessing/Instructions.md)  
 [6. Logging and monitoring](./6-LoggingAndMonitoring/Instructions.md)  
 [7. Templates and automation](./7-Templates/Instructions.md)  
 [8. Custom connectors and APIs](./8-CustomConnectors/Instructions.md)  
