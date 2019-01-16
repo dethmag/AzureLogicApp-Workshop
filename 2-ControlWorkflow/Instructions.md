@@ -17,7 +17,7 @@
 1. Create logic app and use same trigger as in previous exercise.
 2. As a first action add **Switch** action from **Control** connector.
 3. Crate "xml", "txt" and "other" containers in Storage Account.
-4. Switch over MimeType to save file copy to properiner.
+4. Switch over MimeType to save file copy to proper container.
    
    ![Switch](_img/switch.png)
 
