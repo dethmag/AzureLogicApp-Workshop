@@ -3,7 +3,7 @@
 ## Exercise 1 : Filtering data
 
 1. Crate Logic App that is triggered by HTTP GET.
-2. Crate **Parse JSON** action from **Data Operations** connector. Use 'sample payload to generate schema' function to generate schema based on following [file](sample.json)
+2. Crate **Parse JSON** action from **Data Operations** connector. Use 'sample payload to generate schema' function to generate schema based on following [file](Sample.json)
 3. Save result to variable named json.
    
    ![Variable](_img/Variable.png)]
