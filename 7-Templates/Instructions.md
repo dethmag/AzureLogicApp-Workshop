@@ -26,7 +26,7 @@
 
 8. Try running your Logic App in portal.
 
-Exercise 2 : Deploy template from PowerShell
+## Exercise 2 : Deploy template from PowerShell
 
 1. Remove previously deployed Logic App from your resoirce group.
 2. Open Powershell by pressing Win+R, type Powershell, hit Enter.
